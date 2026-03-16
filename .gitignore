@@ -1,19 +1,23 @@
+# Python / virtual env
 .venv/
 __pycache__/
 *.pyc
 
-# raw logs
+# Raw and sensitive logs
 *.prt
 SLA/
 data/raw/
 data/interim/
-*.prt
 
-# optional large/generated files
-data/processed/
+# Models
 data/models/
 
-# OS/editor files
+# Processed data: ignore everything except the demo file
+data/processed/*
+!data/processed/
+!data/processed/scored_transactions_demo.csv
+
+# OS / editor files
 .vscode/
 .DS_Store
 Thumbs.db
