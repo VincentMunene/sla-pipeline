@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+
+# raw logs
+*.prt
+SLA/
+data/raw/
+data/interim/
+*.prt
+
+# optional large/generated files
+data/processed/
+data/models/
+
+# OS/editor files
+.vscode/
+.DS_Store
+Thumbs.db
