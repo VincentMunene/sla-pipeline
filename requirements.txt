@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+joblib
+streamlit
+fastapi
+uvicorn
+xgboost
+python-multipart
+pydantic
+plotly
+statsmodels
+requests
